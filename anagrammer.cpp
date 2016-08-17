@@ -1,6 +1,5 @@
 #include <iostream>
 #include <fstream>
-#include <cstdlib>
 using namespace std;
 
 bool isSame(string a, string b){
