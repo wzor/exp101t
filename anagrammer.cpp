@@ -3,15 +3,15 @@
 using namespace std;
 
 bool isSame(string a, string b){
-	int i, j = 0, count;
-		while(b[j]){
-			i = count = 0;
+	int i, j = -1, count, m;
+		while(b[++j]){
+			i = -1; count = 0; m = c = j - 1;
 			for(int c = j - 1; c > -1; c--) if(b[j]==b[c]){count++; break;}
 			if(!count){
-				for(int m = j; b[m]; m++) if(b[m]==b[j]) count++;
-				while(a[i]){if(a[i]==b[j]) count--; i++;}
+				while(b[++m]) if(b[m]==b[j]) count++;
+				while(a[++i]) if(a[i]==b[j]) count--;
 				if(count) return false;
-			}j++;
+			}
 		}return true;
 }
 
