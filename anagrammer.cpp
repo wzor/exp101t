@@ -5,7 +5,7 @@ using namespace std;
 bool isSame(string a, string b){
 	int i, j = -1, count, m;
 		while(b[++j]){
-			i = -1; count = 0; m = c = j - 1;
+			i = -1; count = 0; m = j - 1;
 			for(int c = j - 1; c > -1; c--) if(b[j]==b[c]){count++; break;}
 			if(!count){
 				while(b[++m]) if(b[m]==b[j]) count++;
