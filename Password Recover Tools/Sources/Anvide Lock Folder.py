@@ -1,4 +1,4 @@
-# Anvide Lock Folder Cracker alpha build
+# Anvide Lock Folder Cracker alpha version
 # TODO: make file extractor
 
 import os, sys
