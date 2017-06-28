@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Wise Hide Folder Cracker alpha build
+# Wise Hide Folder Cracker alpha version
 
 import os
 
